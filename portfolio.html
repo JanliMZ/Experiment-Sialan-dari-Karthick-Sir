@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Home - My Personal Webpage</title>
+        <style>
+            body {
+                background-color:lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:blue;">Welcome to My Personal Webpage</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="portfolio.html">Portofolio</a>
+            <a href="contact.html" onclick="return confirmNavigation()">Contact</a>
+            <a href="calculator.html">Calculator</a>
+        </nav>
+        <p>Here are some of my projects</p>
+        <p>T.M.B.D, Library Management System, Home Automation System, Job-Portal System</p>
+<script>
+    function confirmNavigation() {
+        return confirm("Are you sure you want to navigate to the 'contact' page?");
+    }
+</script>
+
+
+    </body>
+</html>

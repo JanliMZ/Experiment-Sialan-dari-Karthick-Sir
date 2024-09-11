@@ -1,0 +1,37 @@
+e<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Home - My Personal Webpage</title>
+        <style>
+            body {
+                background-color:lightgreen;
+            }
+        </style>
+    </head>
+    <body onload="welcomeMessage()">
+        ...
+        <script>
+            function welcomeMessage() {
+                alert("Welcome to My Personal Website!");
+            }
+        </script>        
+        <h1 style="color:blue;">Welcome to My Personal Webpage</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="portofolio.html">Portofolio</a>
+            <a href="contact.html" onclick="return confirmNavigation()">Contact</a>
+            <a href="calculator.html">Calculator</a>
+        </nav>
+        <p>This is the homepage of my personal webpage</p>
+        <script>
+            function confirmNavigation() {
+                return confirm("Are you sure you want to navigate to the contact page?");
+            }
+        </script>
+        
+    </body>
+</html>

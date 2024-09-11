@@ -1,0 +1,14 @@
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 20px;
+    text-align:left;
+    -moz-box-align: center;
+    box-align: center;
+}
+header {
+    background-color: #ee1414;
+    padding: 20px;
+    text-align: center;
+}
